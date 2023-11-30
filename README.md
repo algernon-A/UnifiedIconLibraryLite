@@ -19,6 +19,8 @@ All icons are automatically pre-injected into the game's UI and are accessible v
 
 The initial styles are Standard, Dark, and Colored.  More will be added later.
 
+To request new icons, contact Chamëleon TBN on the [**Cities: Skylines modding Discord**](https://discord.gg/ZaH2zjtk).
+
 ## Support
 It's usually easiest to contact me at the [**Cities: Skylines modding Discord**](https://discord.gg/ZaH2zjtk), or I'm also contactable as u/algernon_A on the [Cities: Skylines modding Subreddit](https://www.reddit.com/r/CitiesSkylinesModding) (r/CitiesSkylinesModding).  You could also raise an issue on the GitHub.
 
