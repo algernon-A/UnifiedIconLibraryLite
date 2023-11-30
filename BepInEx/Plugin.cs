@@ -14,14 +14,14 @@ namespace UnifiedIconLibrary
     /// <summary>
     /// BepInEx plugin to substitute for IMod support.
     /// </summary>
-    [BepInPlugin(GUID, "Unified Icon Library Lite", "1.0")]
+    [BepInPlugin(GUID, "Unified Icon Library", "1.0")]
     [HarmonyPatch]
     public class Plugin : BaseUnityPlugin
     {
         /// <summary>
         /// Plugin unique GUID.
         /// </summary>
-        public const string GUID = "com.github.algernon-A.CS2.UnifiedIconLibraryLite";
+        public const string GUID = "com.github.algernon-A.CS2.UnifiedIconLibrary";
 
         // IMod instance reference.
         private Mod _mod;

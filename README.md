@@ -20,14 +20,14 @@ All icons are automatically pre-injected into the game's UI and are accessible v
 The initial styles are Standard, Dark, and Colored.  More will be added later.
 
 ## Support
-It's usually easiest to contact me at the **Cities: Skylines modding Discord** at https://discord.gg/ZaH2zjtk, or I'm also contactable as u/algernon_A on the Cities: Skylines modding Subreddit at https://www.reddit.com/r/CitiesSkylinesModding.  You could also raise an issue on the GitHub.
+It's usually easiest to contact me at the [**Cities: Skylines modding Discord**](https://discord.gg/ZaH2zjtk), or I'm also contactable as u/algernon_A on the [Cities: Skylines modding Subreddit](https://www.reddit.com/r/CitiesSkylinesModding) (r/CitiesSkylinesModding).  You could also raise an issue on the GitHub.
 
 ## Meta
 
 When official modding support (finally!) releases, this mod will also be published on Paradox Mods.
 
 ### Source code
-Available on GitHub at github.com/algernon-A/UnifiedIconLibraryLite.
+[Available on GitHub](https://github.com/algernon-A/UnifiedIconLibraryLite) (algernon-A/UnifiedIconLibraryLite).
 
 As always, *never* trust a mod without publicly available source code!
 
@@ -38,7 +38,8 @@ The only authorized distribution platforms for this mod, or mods based substanti
 
 Downloading, installation, and use of this mod is at your own risk.
 
->This mod is Copyright 2023 algernon (GitHub.com/algernon_A).  All rights reserved.  To eliminate any doubt, explicit permission is hereby granted to download this mod for personal use and for Thunderstore.io to distribute it (<- I hope all this isn't actually necessary, but you never know these days).  Permission is explicitly NOT granted for further distribtution or licensing (<- this bit so I can at least *try* to DMCA the malware-spreaders). If you think you've got a good use-case for an exception to any of this, contact me, let's talk!
+>This mod is Copyright 2023 algernon (github.com/algernon-A).  All rights reserved.  To eliminate any doubt, explicit permission is hereby granted to download this mod for personal use and for Thunderstore.io to distribute it (<- I hope all this isn't actually necessary, but you never know these days).  Permission is explicitly NOT granted for further distribtution or licensing (<- this bit so I can at least *try* to DMCA the malware-spreaders). If you think you've got a good use-case for an exception to any of this, contact me, let's talk!
+
 >The icons themselves have additional encumbrances attached and are not to be distributed or used separately to this mod or other than for the purposes of creating mods for Cities Skylines 2 (which shouldn't surprise anybody who's actually *seen* the icons).
 
 >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
