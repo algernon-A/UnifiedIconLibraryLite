@@ -1,5 +1,11 @@
 # Cities Skylines 2: Unified Icon Library
 
+## IMPORTANT: MUST BE INSTALLED MANUALLY
+**Do NOT use the Thunderstore mod manager to install this mod!**
+Only install this mod manually.  The Thunderstore mod manager, unfortunately, doesn't like mods like this and will mangle its format and make it not work.
+
+
+## Description
 This is a mod that provides several collections of icons matching the game's UI style for modders to use in their mods.   This means that modders don't have to waste time finding or re-creating icons, or manually loading them into the game's UI.
 
 This doesn't do anything unless you have a mod that uses it (such as Line Tool), in which case it's required.
@@ -11,6 +17,7 @@ Planned future functionality includes seamless UI style changing.
 
 ## Installation
 1. Make sure that BepInEx 5 is installed.
+2. Download this mod **manually** (**DO NOT USE THE THUNDERSTORE MOD MANAGER**)
 3. Place the `UinfiedIconLibraryLite` folder in the archive in your BepInEx `Plugins` folder.
 
 ### Modders
@@ -19,7 +26,7 @@ All icons are automatically pre-injected into the game's UI and are accessible v
 
 The initial styles are Standard, Dark, and Colored.  More will be added later.
 
-To request new icons, contact Chamëleon TBN on the [**Cities: Skylines modding Discord**](https://discord.gg/ZaH2zjtk).
+To request new icons, contact Chameleon TBN on the [**Cities: Skylines modding Discord**](https://discord.gg/ZaH2zjtk).
 
 ## Support
 It's usually easiest to contact me at the [**Cities: Skylines modding Discord**](https://discord.gg/ZaH2zjtk), or I'm also contactable as u/algernon_A on the [Cities: Skylines modding Subreddit](https://www.reddit.com/r/CitiesSkylinesModding) (r/CitiesSkylinesModding).  You could also raise an issue on the GitHub.
