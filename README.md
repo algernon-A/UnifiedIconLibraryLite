@@ -22,7 +22,7 @@ Planned future functionality includes seamless UI style changing.
 
 ### Modders
 
-All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/<StyleName>/<IconName>.  For more details, see the GitHub page.
+All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/\<StyleName\>/\<IconName\>.  For more details, see the GitHub page.
 
 The initial styles are Standard, Dark, and Colored.  More will be added later.
 
