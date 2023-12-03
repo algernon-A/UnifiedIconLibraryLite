@@ -14,7 +14,7 @@ namespace UnifiedIconLibrary
     /// <summary>
     /// BepInEx plugin to substitute for IMod support.
     /// </summary>
-    [BepInPlugin(GUID, "Unified Icon Library", "1.0")]
+    [BepInPlugin(GUID, "Unified Icon Library", "1.0.2")]
     [HarmonyPatch]
     public class Plugin : BaseUnityPlugin
     {

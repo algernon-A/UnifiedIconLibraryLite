@@ -8,7 +8,7 @@ Only install this mod manually.  The Thunderstore mod manager, unfortunately, do
 ## Description
 This is a mod that provides several collections of icons matching the game's UI style for modders to use in their mods.   This means that modders don't have to waste time finding or re-creating icons, or manually loading them into the game's UI.
 
-This doesn't do anything unless you have a mod that uses it (such as Line Tool), in which case it's required.
+This doesn't do anything unless you have a mod that uses it, in which case it's required.
 
 Planned future functionality includes seamless UI style changing.
 
@@ -47,7 +47,7 @@ The only authorized distribution platforms for this mod, or mods based substanti
 
 Downloading, installation, and use of this mod is at your own risk.
 
->This mod is Copyright 2023 algernon (github.com/algernon-A).  All rights reserved.  To eliminate any doubt, explicit permission is hereby granted to download this mod for personal use and for Thunderstore.io to distribute it (<- I hope all this isn't actually necessary, but you never know these days).  Permission is explicitly NOT granted for further distribtution or licensing (<- this bit so I can at least *try* to DMCA the malware-spreaders). If you think you've got a good use-case for an exception to any of this, contact me, let's talk!
+>This mod is Copyright 2023 algernon (github.com/algernon-A).  All rights reserved.  To eliminate any doubt, explicit permission is hereby granted to download this mod for personal use and for Thunderstore.io to distribute it (<- I hope all this isn't actually necessary, but you never know these days).  Permission is explicitly NOT granted for further distribution or licensing (<- this bit so I can at least *try* to DMCA the malware-spreaders). If you think you've got a good use-case for an exception to any of this, contact me, let's talk!
 
 >The icons themselves have additional encumbrances attached and are not to be distributed or used separately to this mod or other than for the purposes of creating mods for Cities Skylines 2 (which shouldn't surprise anybody who's actually *seen* the icons).
 
