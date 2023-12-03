@@ -1,3 +1,6 @@
+1.0.3
+- Add network icons.
+
 1.0.2
 - Add fence icons.
 
