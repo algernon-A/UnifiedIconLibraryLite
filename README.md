@@ -1,7 +1,7 @@
 # Cities Skylines 2: Unified Icon Library
 
 ## IMPORTANT: MUST BE INSTALLED MANUALLY
-**Do NOT use the Thunderstore mod manager to install this mod!**
+**Do NOT use the Thunderstore mod manager or r2modman to install this mod!**
 Only install this mod manually.  The Thunderstore mod manager, unfortunately, doesn't like mods like this and will mangle its format and make it not work.
 
 
@@ -17,7 +17,7 @@ Planned future functionality includes seamless UI style changing.
 
 ## Installation
 1. Make sure that BepInEx 5 is installed.
-2. Download this mod **manually** (**DO NOT USE THE THUNDERSTORE MOD MANAGER**)
+2. Download this mod **manually** (**DO NOT USE THE THUNDERSTORE MOD MANAGER OR r2modman**)
 3. Place the `UinfiedIconLibraryLite` folder in the archive in your BepInEx `Plugins` folder.
 
 ### Modders
@@ -43,7 +43,7 @@ As always, *never* trust a mod without publicly available source code!
 >And still be cautious about mods that *do* make their source available, but at least those mods are off to a better start by already treating you - the user - with at least a modicum of respect.
 
 ### Disclaimers and legal
-The only authorized distribution platforms for this mod, or mods based substantially on the code of this mod, are the GitHub repo linked above, the Thunderstore.io upload, and Paradox Mods.  Any version or copy of this mod that you encounter elsewhere is most likely being used as a vector for malware and should be ignored.
+The only authorized distribution platforms for this mod, or mods based substantially on the code of this mod, are the GitHub repo linked above, this Thunderstore.io upload, and Paradox Mods (that's the *actual* Paradox Mods at mods.paradoxplaza.com, not the **scam and malware site paradoxmods.net** which is explicitly NOT licensed to distribute any of my work, or works derived from my work).  Any version or copy of this mod that you encounter elsewhere is most likely being used as a vector for malware and should be ignored.
 
 Downloading, installation, and use of this mod is at your own risk.
 
