@@ -14,6 +14,8 @@ Planned future functionality includes seamless UI style changing.
 1. Make sure that BepInEx 5 is installed.
 1. Place the `UinfiedIconLibraryLite` folder in the archive in your BepInEx `Plugins` folder.
 
+It is now safe to also use the Thunderstore mod manager or r2modman to install this mod.
+
 ### Modders
 
 All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/\<StyleName\>/\<IconName\>.  For more details, see the GitHub page.

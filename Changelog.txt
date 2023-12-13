@@ -1,3 +1,6 @@
+1.0.6
+- Add miscellaneous icons.
+
 1.0.5
 - Switch to embedded .zip file for icon distribution as workaround for Thunderstore/r2modman mod manager bugs.
 

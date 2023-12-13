@@ -84,14 +84,14 @@ namespace UnifiedIconLibrary
                     if (Directory.Exists(standardPath))
                     {
                         // Standard directory present - check file count.
-                        if (Directory.GetFiles(standardPath).Length != 110)
+                        if (Directory.GetFiles(standardPath).Length != 117)
                         {
                             // File count not up do date - flag files as needing update.
                             Log.Info("Standard file count not current");
                             needsRefresh = true;
                         }
                     }
-                    else if (Directory.GetFiles(standardPath).Length != 110)
+                    else
                     {
                         // Standard directory not present - flag files as needing update.
                         Log.Info("Standard directory not found");
