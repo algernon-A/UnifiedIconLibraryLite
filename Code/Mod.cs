@@ -4,7 +4,10 @@
 
 namespace UnifiedIconLibrary
 {
+    using System;
     using System.IO;
+    using System.IO.Compression;
+    using System.Reflection;
     using Colossal.Logging;
     using Game;
     using Game.Modding;
@@ -67,6 +70,70 @@ namespace UnifiedIconLibrary
             Log.effectivenessLevel = Level.Debug;
 
             Log.Info("loading");
+
+            try
+            {
+                bool needsRefresh = false;
+
+                // Check for icon directory presence.
+                string iconsPath = Path.Combine(AssemblyPath, "Icons");
+                if (Directory.Exists(iconsPath))
+                {
+                    // Icon directory present = check for Standard directory.
+                    string standardPath = Path.Combine(iconsPath, "Standard");
+                    if (Directory.Exists(standardPath))
+                    {
+                        // Standard directory present - check file count.
+                        if (Directory.GetFiles(standardPath).Length != 110)
+                        {
+                            // File count not up do date - flag files as needing update.
+                            Log.Info("Standard file count not current");
+                            needsRefresh = true;
+                        }
+                    }
+                    else if (Directory.GetFiles(standardPath).Length != 110)
+                    {
+                        // Standard directory not present - flag files as needing update.
+                        Log.Info("Standard directory not found");
+                        needsRefresh = true;
+                    }
+
+                    // If we need to update, delete the Icons directory and any content first.
+                    if (needsRefresh)
+                    {
+                        Log.Info("Deleting existing icons folder");
+                        Directory.Delete(iconsPath, true);
+                    }
+                }
+                else
+                {
+                    // Icon folder not present - flag files as needing update.
+                    Log.Info("Icon directory not found");
+                    needsRefresh = true;
+                }
+
+                // If files need refreshing then extract bundled zip file.
+                if (needsRefresh)
+                {
+                    // Not current - extract bundled zip file.
+                    Log.Info("Extracting icons");
+                    using Stream embeddedStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("UnifiedIconLibraryLite.Icons.Icons.zip");
+                    {
+                        using ZipArchive archive = new (embeddedStream, ZipArchiveMode.Read, false);
+                        {
+                            archive.ExtractToDirectory(AssemblyPath);
+                        }
+                    }
+                }
+                else
+                {
+                    Log.Info("found existing icon directory");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.Error(e, "exception updating or installing icons");
+            }
         }
 
         /// <summary>

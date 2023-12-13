@@ -1,10 +1,5 @@
 # Cities Skylines 2: Unified Icon Library
 
-## IMPORTANT: MUST BE INSTALLED MANUALLY
-**Do NOT use the Thunderstore mod manager or r2modman to install this mod!**
-Only install this mod manually.  The Thunderstore mod manager, unfortunately, doesn't like mods like this and will mangle its format and make it not work.
-
-
 ## Description
 This is a mod that provides several collections of icons matching the game's UI style for modders to use in their mods.   This means that modders don't have to waste time finding or re-creating icons, or manually loading them into the game's UI.
 
@@ -17,8 +12,7 @@ Planned future functionality includes seamless UI style changing.
 
 ## Installation
 1. Make sure that BepInEx 5 is installed.
-2. Download this mod **manually** (**DO NOT USE THE THUNDERSTORE MOD MANAGER OR r2modman**)
-3. Place the `UinfiedIconLibraryLite` folder in the archive in your BepInEx `Plugins` folder.
+1. Place the `UinfiedIconLibraryLite` folder in the archive in your BepInEx `Plugins` folder.
 
 ### Modders
 

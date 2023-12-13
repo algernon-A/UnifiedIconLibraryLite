@@ -21,16 +21,4 @@
 		<RemoveDir Directories="$(DeployDir)" />
 		<Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(DeployDir)" />
 	</Target>
-
-	<Target Name="DeployToModDirectory" AfterTargets="AfterBuildAction">
-		<ItemGroup>
-			<_Standard Include="$(ProjectDir)/Icons/Standard/*.svg" />
-			<_Dark Include="$(ProjectDir)/Icons/Dark/*.svg" />
-			<_Colored Include="$(ProjectDir)/Icons/Colored/*.svg" />
-		</ItemGroup>
-		<Message Text="Copy content to deploy dir $(DeployDir)/Standard" Importance="high" />
-		<Copy SourceFiles="@(_Standard)" DestinationFolder="$(DeployDir)/Icons/Standard" />
-		<Copy SourceFiles="@(_Dark)" DestinationFolder="$(DeployDir)/Icons/Dark" />
-		<Copy SourceFiles="@(_Colored)" DestinationFolder="$(DeployDir)/Icons/Colored" />
-	</Target>
 </Project>
