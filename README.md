@@ -20,12 +20,12 @@ It is now safe to also use the Thunderstore mod manager or r2modman to install t
 
 All icons are automatically pre-injected into the game's UI and are accessible via coui://uil/\<StyleName\>/\<IconName\>.  For more details, see the GitHub page.
 
-The initial styles are Standard, Dark, and Colored.  More will be added later.
+The initial styles are Standard, Dark, and Colored.  More will be added later.  Requests for new styles are welcome!
 
-To request new icons, contact Chameleon TBN on the [**Cities: Skylines modding Discord**](https://discord.gg/ZaH2zjtk).
+To request new icons, contact Chameleon TBN on the [**Cities: Skylines modding Discord**](https://discord.gg/7rTsfUdfTf).
 
 ## Support
-It's usually easiest to contact me at the [**Cities: Skylines modding Discord**](https://discord.gg/ZaH2zjtk), or I'm also contactable as u/algernon_A on the [Cities: Skylines modding Subreddit](https://www.reddit.com/r/CitiesSkylinesModding) (r/CitiesSkylinesModding).  You could also raise an issue on the GitHub.
+It's usually easiest to contact me at the [**Cities: Skylines modding Discord**](https://discord.gg/7rTsfUdfTf), or I'm also contactable as u/algernon_A on the [Cities: Skylines modding Subreddit](https://www.reddit.com/r/CitiesSkylinesModding) (r/CitiesSkylinesModding).  You could also raise an issue on the GitHub.
 
 ## Meta
 
