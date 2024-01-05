@@ -4,9 +4,9 @@
 		<AssemblyTitle>$(Title)</AssemblyTitle>
 		<Description>A Cities: Skylines 2 mod.</Description>
 		<Authors>algernon</Authors>
-		<Copyright>Copyright © 2023 algernon (github.com/algernon-A). All rights reserved.</Copyright>
+		<Copyright>Copyright © 2023-24 algernon (github.com/algernon-A). All rights reserved.</Copyright>
 		<Product>$(Title)</Product>
-		<Version>1.0.6</Version>
+		<Version>1.0.7</Version>
 		<LangVersion>9.0</LangVersion>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 	</PropertyGroup>
@@ -15,10 +15,6 @@
 	<Import Project="Config/Targets.csproj" />
 	<Import Project="Config/References.csproj" />
 	<Import Project="BepInEx/BepInEx.csproj" />
-	<ItemGroup>
-	  <None Remove="Icons\Icons.zip" />
-	  <None Remove="Icons\Standard.zip" />
-	</ItemGroup>
 	
 	<ItemGroup>
 		<AdditionalFiles Include="stylecop.json" />

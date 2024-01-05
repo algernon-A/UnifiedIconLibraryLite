@@ -66,8 +66,10 @@ namespace UnifiedIconLibrary
 
             // Initialize logger.
             Log = LogManager.GetLogger(ModName);
+#if DEBUG
             Log.Info("setting logging level to Debug");
             Log.effectivenessLevel = Level.Debug;
+#endif
 
             Log.Info("loading");
 
@@ -84,7 +86,7 @@ namespace UnifiedIconLibrary
                     if (Directory.Exists(standardPath))
                     {
                         // Standard directory present - check file count.
-                        if (Directory.GetFiles(standardPath).Length != 117)
+                        if (Directory.GetFiles(standardPath).Length != 133)
                         {
                             // File count not up do date - flag files as needing update.
                             Log.Info("Standard file count not current");
